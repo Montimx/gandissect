@@ -1,4 +1,5 @@
 import numpy, scipy
+from PIL import Image
 
 def segment_visualization(seg, size):
     result = numpy.zeros((seg.shape[1] * seg.shape[2], 3), dtype=numpy.uint8)
